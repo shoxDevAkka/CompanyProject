@@ -25,8 +25,8 @@ public class SalesDepartmentResource {
         return ResponseEntity.ok(result);
     }
 
-    @PatchMapping("/sales")             // "Put" method must be practiced again
-    public ResponseEntity update(@RequestBody SalesDepartment salesDepartment){     // "NullRequest" errors on entity
+    @PatchMapping("/sales")
+    public ResponseEntity update(@RequestBody SalesDepartment salesDepartment){
         if (salesDepartment.getId() == null){
             return ResponseEntity.badRequest().build();
         }
