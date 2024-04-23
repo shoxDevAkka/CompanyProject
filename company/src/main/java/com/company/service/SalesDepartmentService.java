@@ -23,6 +23,29 @@ public class SalesDepartmentService {
         return salesDepartmentRepository.save(salesDepartment);
     }
 
+    public SalesDepartment saveAsPatch(SalesDepartment salesDepartment){
+        Optional<SalesDepartment> sale = salesDepartmentRepository.findById(salesDepartment.getId());
+
+        if (sale.isPresent()){
+            SalesDepartment sale1 = sale.get();
+            if (salesDepartment.getAdvertType() != null){
+                sale1.setAdvertType(salesDepartment.getAdvertType());
+            }
+
+            if (salesDepartment.getAdvertDeadlineDays() != null){
+                sale1.setAdvertDeadlineDays(salesDepartment.getAdvertDeadlineDays());
+            }
+
+            if (salesDepartment.getExpense() != null){
+                sale1.setExpense(salesDepartment.getExpense());
+            }
+
+            return salesDepartmentRepository.save(sale1);
+        }
+
+        return null;
+    }
+
     public SalesDepartment findById(Long id) {
         Optional<SalesDepartment> result = salesDepartmentRepository.findById(id);
         return result.orElse(null);

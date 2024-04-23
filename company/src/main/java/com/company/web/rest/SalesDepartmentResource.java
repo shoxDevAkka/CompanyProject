@@ -31,11 +31,7 @@ public class SalesDepartmentResource {
             return ResponseEntity.badRequest().build();
         }
 
-        if (salesDepartment.getExpense() != null || salesDepartment.getResponsiblePerson() != null){
-            return ResponseEntity.badRequest().build();
-        }
-
-        SalesDepartment result = salesDepartmentService.save(salesDepartment);
+        SalesDepartment result = salesDepartmentService.saveAsPatch(salesDepartment);
         return ResponseEntity.ok(result);
     }
 

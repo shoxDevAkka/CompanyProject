@@ -13,16 +13,13 @@ public class SalesDepartment implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotNull
-    @Column(name = "Advert_Type", nullable = false)
+    @Column(name = "Advert_Type")
     private String advertType;
 
-    @NotNull
     @Column(name = "Expense_$")
     private Long expense;
 
-    @NotNull
-    @Column(name = "Advert_Deadline_in_Days", nullable = false)
+    @Column(name = "Advert_Deadline_in_Days")
     private Long advertDeadlineDays;
 
     @Column(name = "Advert_Start")
