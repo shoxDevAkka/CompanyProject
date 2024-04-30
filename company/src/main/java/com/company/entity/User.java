@@ -6,6 +6,7 @@ import java.io.Serializable;
 import java.util.Set;
 
 @Entity
+@Table(name = "company_user")
 public class User implements Serializable {
 
     @Id
@@ -16,15 +17,15 @@ public class User implements Serializable {
 
     private String password;
 
-    @OneToOne(optional = false)
-    @JoinColumn(name = "user_info_id", unique = true, referencedColumnName = "id")
+    @ManyToOne
+    @JoinColumn(name = "user_info_id")
     private EmployeeManagement employeeManagement;
 
     @ManyToMany
     @JoinTable(
-            name = "User_Authority",
+            name = "user_authority",
             joinColumns = {@JoinColumn(name = "user_id", referencedColumnName = "id")},
-            inverseJoinColumns = {@JoinColumn(name = "authority_id", referencedColumnName = "id")}
+            inverseJoinColumns = {@JoinColumn(name = "authority_name", referencedColumnName = "positionName")}
     )
     private Set<Authority> authorities;
 

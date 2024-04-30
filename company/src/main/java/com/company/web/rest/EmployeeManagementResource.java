@@ -23,7 +23,7 @@ public class EmployeeManagementResource {
         return ResponseEntity.ok(result);
     }
 
-    @PutMapping("/employees")
+    @PutMapping("/employees/update")
     public ResponseEntity update(@RequestBody EmployeeManagement employeeManagement){
         if (employeeManagement.getId() == null){
             return ResponseEntity.badRequest().build();
@@ -53,7 +53,7 @@ public class EmployeeManagementResource {
         return ResponseEntity.ok(result);
     }
 
-    @DeleteMapping("/employees/{id}")
+    @DeleteMapping("/employees-delete/{id}")
     public ResponseEntity delete(@PathVariable Long id){
         employeeManagementService.deleteById(id);
         return ResponseEntity.ok("Xodim muvaffaqiyatli o'chirildi!");

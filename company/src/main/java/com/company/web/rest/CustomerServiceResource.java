@@ -23,7 +23,7 @@ public class CustomerServiceResource {
         return ResponseEntity.ok(result);
     }
 
-    @PutMapping("/customers")
+    @PutMapping("/customers/update")
     public ResponseEntity update(@RequestBody CustomerService customerService){
         if (customerService.getId() == null){
             return ResponseEntity.badRequest().build();
@@ -51,7 +51,7 @@ public class CustomerServiceResource {
         return ResponseEntity.ok(result);
     }
 
-    @DeleteMapping("/customers/{id}")
+    @DeleteMapping("/customers-delete/{id}")
     public ResponseEntity delete(@PathVariable Long id){
         customerServiceDepartmentService.deleteById(id);
         return ResponseEntity.ok("Obyekt o'chirildi!");

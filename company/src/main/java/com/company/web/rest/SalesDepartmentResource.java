@@ -25,7 +25,7 @@ public class SalesDepartmentResource {
         return ResponseEntity.ok(result);
     }
 
-    @PatchMapping("/sales")
+    @PatchMapping("/sales/update")
     public ResponseEntity update(@RequestBody SalesDepartment salesDepartment){
         if (salesDepartment.getId() == null){
             return ResponseEntity.badRequest().build();
@@ -51,6 +51,12 @@ public class SalesDepartmentResource {
     public ResponseEntity getSalesByPaging(Pageable pageable){
         Page<SalesDepartment> result = salesDepartmentService.findSalesByPaging(pageable);
         return ResponseEntity.ok(result);
+    }
+
+    @DeleteMapping("/sales-delete/{id}")
+    public ResponseEntity delete(@PathVariable Long id){
+        salesDepartmentService.deleteById(id);
+        return ResponseEntity.ok("Ma'lumot o'chirildi!");
     }
 
 }

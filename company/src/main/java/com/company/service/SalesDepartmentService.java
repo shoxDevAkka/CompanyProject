@@ -60,4 +60,7 @@ public class SalesDepartmentService {
         return salesDepartmentRepository.findAll(pageable);
     }
 
+    public void deleteById(Long id) {
+        salesDepartmentRepository.deleteById(id);
+    }
 }
