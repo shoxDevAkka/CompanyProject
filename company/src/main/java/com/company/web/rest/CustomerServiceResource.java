@@ -16,7 +16,7 @@ public class CustomerServiceResource {
 
     private final CustomerServiceDepartmentService customerServiceDepartmentService;
 
-    private final Logger logger = LoggerFactory.getLogger(CustomerServiceEmployeeResource.class);
+    private final Logger logger = LoggerFactory.getLogger(CustomerServiceResource.class);
 
     public CustomerServiceResource(CustomerServiceDepartmentService customerServiceDepartmentService) {
         this.customerServiceDepartmentService = customerServiceDepartmentService;
@@ -31,7 +31,7 @@ public class CustomerServiceResource {
 
         try {
             CustomerService result = customerServiceDepartmentService.save(customerService);
-            logger.info(customerService.getId() + "-id-agi mijoz 'CustomerService' jadvalida registratsiyadan otdi");
+            logger.info(result.getId() + "-id-agi mijoz 'CustomerService' jadvalida registratsiyadan otdi");
             return ResponseEntity.ok(result);
         } catch (Exception e) {
             logger.error(customerService.getId() + "-id-agi mijoz 'CustomerService' jadvalida registratsiyadan otmadi");

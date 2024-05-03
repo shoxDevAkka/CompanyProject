@@ -16,7 +16,7 @@ public class CompanyPositionResource {
 
     private final CompanyPositionService companyPositionService;
 
-    private final Logger logger = LoggerFactory.getLogger(CompanyDepartmentResource.class);
+    private final Logger logger = LoggerFactory.getLogger(CompanyPositionResource.class);
 
     public CompanyPositionResource(CompanyPositionService companyPositionService) {
         this.companyPositionService = companyPositionService;
