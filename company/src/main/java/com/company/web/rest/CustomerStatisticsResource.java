@@ -37,10 +37,10 @@ public class CustomerStatisticsResource {
 
         try {
             String result = customerStatisticsService.findCustomersCountDay(year, month, day);
-            logger.info(year + "/" + month + "/" + day + " kundagi royhatdan o'tgan mijozlar soni 'EmployeeManagement' jadvalidan qabul qilindi");
+            logger.info(year + "/" + month + "/" + day + " kundagi royhatdan o'tgan mijozlar soni 'CustomerService' jadvalidan qabul qilindi");
             return ResponseEntity.ok(result);
         } catch (Exception e) {
-            logger.error(year + "/" + month + "/" + day + " kundagi royhatdan o'tgan mijozlar soni 'EmployeeManagement' jadvalidan qabul qilinmadi");
+            logger.error(year + "/" + month + "/" + day + " kundagi royhatdan o'tgan mijozlar soni 'CustomerService' jadvalidan qabul qilinmadi");
             return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
@@ -94,10 +94,10 @@ public class CustomerStatisticsResource {
             }
 
             String result = customerStatisticsService.findCustomersInMonth(year, month, day);
-            logger.info(year + "/" + month + "/" + day + " sanadan boshlab so'nggi 1 oy davomida royhatdan otgan mijozlar soni 'EmployeeManagement' jadvalidan qabul qilindi");
+            logger.info(year + "/" + month + "/" + day + " sanadan boshlab so'nggi 1 oy davomida royhatdan otgan mijozlar soni 'CustomerService' jadvalidan qabul qilindi");
             return ResponseEntity.ok(result);
         } catch (Exception e) {
-            logger.error(year + "/" + month + "/" + day + " sanadan boshlab so'nggi 1 oy davomida royhatdan otgan mijozlar soni 'EmployeeManagement' jadvalidan qabul qilinmadi");
+            logger.error(year + "/" + month + "/" + day + " sanadan boshlab so'nggi 1 oy davomida royhatdan otgan mijozlar soni 'CustomerService' jadvalidan qabul qilinmadi");
             return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
@@ -117,10 +117,10 @@ public class CustomerStatisticsResource {
             }
 
             String result = customerStatisticsService.findTopDayRegistrationsInDay(year,month,day);
-            logger.info(year + "/" + month + "/" + day + " sanadan boshlab so'nggi 1 oy davomida eng kop mijoz royhatdan otgan kun 'EmployeeManagement' jadvalidan qabul qilindi");
+            logger.info(year + "/" + month + "/" + day + " sanadan boshlab so'nggi 1 oy davomida eng kop mijoz royhatdan otgan kun 'CustomerService' jadvalidan qabul qilindi");
             return ResponseEntity.ok(result);
         } catch (Exception e) {
-            logger.error(year + "/" + month + "/" + day + " sanadan boshlab so'nggi 1 oy davomida eng kop mijoz royhatdan otgan kun 'EmployeeManagement' jadvalidan qabul qilinmadi");
+            logger.error(year + "/" + month + "/" + day + " sanadan boshlab so'nggi 1 oy davomida eng kop mijoz royhatdan otgan kun 'CustomerService' jadvalidan qabul qilinmadi");
             return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }

@@ -1,36 +1,8 @@
-2024-05-03 20:27:34 [main] INFO  com.company.CompanyApplication - Starting CompanyApplication using Java 21.0.2 with PID 20544 (C:\Users\DELL\Documents\Spring projects\company\company\build\classes\java\main started by DELL in C:\Users\DELL\Documents\Spring projects\company)
-2024-05-03 20:27:34 [main] DEBUG com.company.CompanyApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
-2024-05-03 20:27:34 [main] INFO  com.company.CompanyApplication - No active profile set, falling back to 1 default profile: "default"
-2024-05-03 20:27:40 [main] INFO  com.company.CompanyApplication - Started CompanyApplication in 6.088 seconds (process running for 7.908)
-2024-05-03 20:50:29 [main] INFO  com.company.CompanyApplication - Starting CompanyApplication using Java 21.0.2 with PID 2336 (C:\Users\DELL\Documents\Spring projects\company\company\build\classes\java\main started by DELL in C:\Users\DELL\Documents\Spring projects\company)
-2024-05-03 20:50:29 [main] DEBUG com.company.CompanyApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
-2024-05-03 20:50:29 [main] INFO  com.company.CompanyApplication - No active profile set, falling back to 1 default profile: "default"
-2024-05-03 20:50:34 [main] INFO  com.company.CompanyApplication - Started CompanyApplication in 5.708 seconds (process running for 6.722)
-2024-05-03 20:52:11 [main] INFO  com.company.CompanyApplication - Starting CompanyApplication using Java 21.0.2 with PID 12096 (C:\Users\DELL\Documents\Spring projects\company\company\build\classes\java\main started by DELL in C:\Users\DELL\Documents\Spring projects\company)
-2024-05-03 20:52:11 [main] DEBUG com.company.CompanyApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
-2024-05-03 20:52:11 [main] INFO  com.company.CompanyApplication - No active profile set, falling back to 1 default profile: "default"
-2024-05-03 20:52:16 [main] INFO  com.company.CompanyApplication - Started CompanyApplication in 5.747 seconds (process running for 6.931)
-2024-05-03 20:52:49 [http-nio-8085-exec-2] DEBUG c.c.web.rest.CustomerServiceResource - '/customers' endpoint - dan so'rov qabul qilindi
-2024-05-03 20:52:49 [http-nio-8085-exec-2] DEBUG c.c.web.rest.CustomerServiceResource - 'Post' sorovi qabul qilindi
-2024-05-03 20:52:49 [http-nio-8085-exec-2] DEBUG c.c.web.rest.CustomerServiceResource - 'create' method-i ishga tushdi
-2024-05-03 20:53:36 [http-nio-8085-exec-2] INFO  c.c.web.rest.CustomerServiceResource - 7-id-agi mijoz 'CustomerService' jadvalida registratsiyadan otdi
-2024-05-03 21:58:50 [main] INFO  com.company.CompanyApplication - Starting CompanyApplication using Java 21.0.2 with PID 9800 (C:\Users\DELL\Documents\Spring projects\company\company\build\classes\java\main started by DELL in C:\Users\DELL\Documents\Spring projects\company)
-2024-05-03 21:58:50 [main] DEBUG com.company.CompanyApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
-2024-05-03 21:58:50 [main] INFO  com.company.CompanyApplication - No active profile set, falling back to 1 default profile: "default"
-2024-05-03 21:58:54 [main] INFO  com.company.CompanyApplication - Started CompanyApplication in 4.079 seconds (process running for 5.088)
-2024-05-03 22:02:46 [main] INFO  com.company.CompanyApplication - Starting CompanyApplication using Java 21.0.2 with PID 1544 (C:\Users\DELL\Documents\Spring projects\company\company\build\classes\java\main started by DELL in C:\Users\DELL\Documents\Spring projects\company)
-2024-05-03 22:02:46 [main] DEBUG com.company.CompanyApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
-2024-05-03 22:02:46 [main] INFO  com.company.CompanyApplication - No active profile set, falling back to 1 default profile: "default"
-2024-05-03 22:02:49 [main] INFO  com.company.CompanyApplication - Started CompanyApplication in 3.651 seconds (process running for 4.305)
-2024-05-03 22:07:55 [main] INFO  com.company.CompanyApplication - Starting CompanyApplication using Java 21.0.2 with PID 25028 (C:\Users\DELL\Documents\Spring projects\company\company\build\classes\java\main started by DELL in C:\Users\DELL\Documents\Spring projects\company)
-2024-05-03 22:07:55 [main] DEBUG com.company.CompanyApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
-2024-05-03 22:07:55 [main] INFO  com.company.CompanyApplication - No active profile set, falling back to 1 default profile: "default"
-2024-05-03 22:07:58 [main] INFO  com.company.CompanyApplication - Started CompanyApplication in 3.921 seconds (process running for 4.533)
-2024-05-03 22:37:26 [main] INFO  com.company.CompanyApplication - Starting CompanyApplication using Java 21.0.2 with PID 25696 (C:\Users\DELL\Documents\Spring projects\company\company\build\classes\java\main started by DELL in C:\Users\DELL\Documents\Spring projects\company)
-2024-05-03 22:37:26 [main] DEBUG com.company.CompanyApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
-2024-05-03 22:37:26 [main] INFO  com.company.CompanyApplication - No active profile set, falling back to 1 default profile: "default"
-2024-05-03 22:37:30 [main] INFO  com.company.CompanyApplication - Started CompanyApplication in 4.136 seconds (process running for 4.818)
-2024-05-03 22:38:56 [main] INFO  com.company.CompanyApplication - Starting CompanyApplication using Java 21.0.2 with PID 3416 (C:\Users\DELL\Documents\Spring projects\company\company\build\classes\java\main started by DELL in C:\Users\DELL\Documents\Spring projects\company)
-2024-05-03 22:38:56 [main] DEBUG com.company.CompanyApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
-2024-05-03 22:38:56 [main] INFO  com.company.CompanyApplication - No active profile set, falling back to 1 default profile: "default"
-2024-05-03 22:39:00 [main] INFO  com.company.CompanyApplication - Started CompanyApplication in 4.043 seconds (process running for 5.161)
+2024-05-04 21:24:16 [main] INFO  com.company.CompanyApplication - Starting CompanyApplication using Java 21.0.2 with PID 24496 (C:\Users\DELL\Documents\Spring projects\company\company\build\classes\java\main started by DELL in C:\Users\DELL\Documents\Spring projects\company)
+2024-05-04 21:24:16 [main] DEBUG com.company.CompanyApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
+2024-05-04 21:24:16 [main] INFO  com.company.CompanyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-04 21:24:20 [main] INFO  com.company.CompanyApplication - Started CompanyApplication in 4.353 seconds (process running for 6.187)
+2024-05-04 22:50:33 [main] INFO  com.company.CompanyApplication - Starting CompanyApplication using Java 21.0.2 with PID 4336 (C:\Users\DELL\Documents\Spring projects\company\company\build\classes\java\main started by DELL in C:\Users\DELL\Documents\Spring projects\company)
+2024-05-04 22:50:33 [main] DEBUG com.company.CompanyApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
+2024-05-04 22:50:33 [main] INFO  com.company.CompanyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-04 22:50:37 [main] INFO  com.company.CompanyApplication - Started CompanyApplication in 3.799 seconds (process running for 4.458)
