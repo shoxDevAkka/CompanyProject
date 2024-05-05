@@ -32,6 +32,15 @@ public class UserResource {
         logger.debug("'create' method-i ishga tushdi");
 
         try {
+
+            if (userService.existsByUsername(user.getUsername())){
+                return new ResponseEntity("Please enter other username! Username exists in database!", HttpStatus.BAD_REQUEST);
+            }
+
+            if (checkPasswordLength(user.getPassword())){
+                return new ResponseEntity("Password length is less than 4", HttpStatus.BAD_REQUEST);
+            }
+
             String role = user.getAuthorities().stream().map(Authority::getPositionName).collect(Collectors.joining());
 
             if (role.equals("ROLE_EMPLOYEE")){
@@ -119,5 +128,9 @@ public class UserResource {
             logger.error(id + "-id-li user malumotlari 'company_user' jadvalidan ochirilmadi");
             return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
         }
+    }
+
+    private boolean checkPasswordLength(String password) {
+        return password.length() <= 4;
     }
 }

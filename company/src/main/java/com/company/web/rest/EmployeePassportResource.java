@@ -25,7 +25,7 @@ public class EmployeePassportResource {
     @PostMapping("/passports")
     public ResponseEntity create(@RequestBody EmployeePassport employeePassport){
 
-        logger.debug("'/customers' endpoint - dan so'rov qabul qilindi");
+        logger.debug("'/passports'  endpoint - dan so'rov qabul qilindi");
         logger.debug("'Post' sorovi qabul qilindi");
         logger.debug("'create' method-i ishga tushdi");
 

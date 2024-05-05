@@ -83,7 +83,7 @@ public class SalesDepartmentStatisticsService {
             }
         }
 
-        return "So'ngi 1 oy ichida yo'lga qo'yilgan reklamalar soni : " + count;
+        return year + "/" + month + "/" + day + " sanadan boshlab so'ngi 1 oy ichida yo'lga qo'yilgan reklamalar soni : " + count;
     }
 
     public String findFinishedSalesInMonth(Long year, Long month, Long day) {
@@ -108,7 +108,7 @@ public class SalesDepartmentStatisticsService {
             }
         }
 
-        return "So'ngi 1 oy ichida to'xtagan reklamalar soni : " + count;
+        return year + "/" + month + "/" + day + " sanadan boshlab so'ngi 1 oy ichida to'xtagan reklamalar soni : " + count;
     }
 
     public Map<String, Long> findEachTypeExpense() {

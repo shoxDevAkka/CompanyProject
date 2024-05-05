@@ -87,7 +87,7 @@ public class CustomerStatisticsService {
             }
         }
 
-        return "So'ngi 1 oyda ro'yhatdan o'tgan mijozlar soni : " + count;
+        return year + "/" + month + "/" + day + " sanadan boshlab so'ngi 1 oyda ro'yhatdan o'tgan mijozlar soni : " + count;
     }
 
     public String findTopDayRegistrationsInDay(Long year, Long month, Long day) {
@@ -137,7 +137,7 @@ public class CustomerStatisticsService {
         }
 
 
-        return "So'nggi 1 oyning shu chislosida :  'Year :  " + year + "; " + dayMonthList.get((int)index) + "' eng ko'p mijoz ro'yhatdan o'tkazilgan soni : " + countMax;
+        return year + "/" + month + "/" + day + " sanadan boshlab so'nggi 1 oyning shu chislosida :  'Year :  " + year + "; " + dayMonthList.get((int)index) + "' eng ko'p mijoz ro'yhatdan o'tkazilgan soni : " + countMax;
 
     }
 

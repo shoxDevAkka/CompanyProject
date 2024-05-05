@@ -1,8 +1,196 @@
-2024-05-04 21:24:16 [main] INFO  com.company.CompanyApplication - Starting CompanyApplication using Java 21.0.2 with PID 24496 (C:\Users\DELL\Documents\Spring projects\company\company\build\classes\java\main started by DELL in C:\Users\DELL\Documents\Spring projects\company)
-2024-05-04 21:24:16 [main] DEBUG com.company.CompanyApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
-2024-05-04 21:24:16 [main] INFO  com.company.CompanyApplication - No active profile set, falling back to 1 default profile: "default"
-2024-05-04 21:24:20 [main] INFO  com.company.CompanyApplication - Started CompanyApplication in 4.353 seconds (process running for 6.187)
-2024-05-04 22:50:33 [main] INFO  com.company.CompanyApplication - Starting CompanyApplication using Java 21.0.2 with PID 4336 (C:\Users\DELL\Documents\Spring projects\company\company\build\classes\java\main started by DELL in C:\Users\DELL\Documents\Spring projects\company)
-2024-05-04 22:50:33 [main] DEBUG com.company.CompanyApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
-2024-05-04 22:50:33 [main] INFO  com.company.CompanyApplication - No active profile set, falling back to 1 default profile: "default"
-2024-05-04 22:50:37 [main] INFO  com.company.CompanyApplication - Started CompanyApplication in 3.799 seconds (process running for 4.458)
+2024-05-05 18:32:18 [main] INFO  com.company.CompanyApplication - Starting CompanyApplication using Java 21.0.2 with PID 26368 (C:\Users\DELL\Documents\Spring projects\company\company\build\classes\java\main started by DELL in C:\Users\DELL\Documents\Spring projects\company)
+2024-05-05 18:32:18 [main] DEBUG com.company.CompanyApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
+2024-05-05 18:32:18 [main] INFO  com.company.CompanyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-05 18:32:24 [main] INFO  com.company.CompanyApplication - Started CompanyApplication in 6.49 seconds (process running for 8.905)
+2024-05-05 18:40:17 [http-nio-8085-exec-1] DEBUG c.c.w.rest.EmployeePassportResource - '/customers' endpoint - dan so'rov qabul qilindi
+2024-05-05 18:40:17 [http-nio-8085-exec-1] DEBUG c.c.w.rest.EmployeePassportResource - 'Post' sorovi qabul qilindi
+2024-05-05 18:40:17 [http-nio-8085-exec-1] DEBUG c.c.w.rest.EmployeePassportResource - 'create' method-i ishga tushdi
+2024-05-05 18:40:17 [http-nio-8085-exec-1] INFO  c.c.w.rest.EmployeePassportResource - 7-id-li kiritilgan passport malumotlari 'EmployeePassport' jadvaliga qoshildi
+2024-05-05 18:41:28 [http-nio-8085-exec-6] DEBUG c.c.w.r.EmployeeManagementResource - '/employees' endpoint - dan so'rov qabul qilindi
+2024-05-05 18:41:28 [http-nio-8085-exec-6] DEBUG c.c.w.r.EmployeeManagementResource - 'Post' sorovi qabul qilindi
+2024-05-05 18:41:28 [http-nio-8085-exec-6] DEBUG c.c.w.r.EmployeeManagementResource - 'create' method-i ishga tushdi
+2024-05-05 18:41:28 [http-nio-8085-exec-6] INFO  c.c.w.r.EmployeeManagementResource - 8-id-li xodim 'EmployeeManagement' bazasiga muvaffaqiyatli qoshildi
+2024-05-05 18:45:10 [http-nio-8085-exec-8] DEBUG c.c.w.rest.EmployeePassportResource - '/passports' endpoint - dan so'rov qabul qilindi
+2024-05-05 18:45:10 [http-nio-8085-exec-8] DEBUG c.c.w.rest.EmployeePassportResource - 'Put' sorovi qabul qilindi
+2024-05-05 18:45:10 [http-nio-8085-exec-8] DEBUG c.c.w.rest.EmployeePassportResource - 'update' method-i ishga tushdi
+2024-05-05 18:45:10 [http-nio-8085-exec-8] INFO  c.c.w.rest.EmployeePassportResource - 7-id-li passport malumotlari 'EmployeePassport' jadvalida yangilandi
+2024-05-05 18:46:08 [http-nio-8085-exec-9] DEBUG c.c.w.rest.EmployeePassportResource - '/passports' endpoint - dan so'rov qabul qilindi
+2024-05-05 18:46:08 [http-nio-8085-exec-9] DEBUG c.c.w.rest.EmployeePassportResource - 'Get' sorovi qabul qilindi
+2024-05-05 18:46:08 [http-nio-8085-exec-9] DEBUG c.c.w.rest.EmployeePassportResource - 'getAll' method-i ishga tushdi
+2024-05-05 18:46:08 [http-nio-8085-exec-9] INFO  c.c.w.rest.EmployeePassportResource - List<EmployeePassport> turidagi malumot 'EmployeePassport' jadvalidan qabul qilindi
+2024-05-05 18:46:48 [http-nio-8085-exec-10] DEBUG c.c.w.rest.EmployeePassportResource - '/passports/{id}' endpoint - dan so'rov qabul qilindi
+2024-05-05 18:46:48 [http-nio-8085-exec-10] DEBUG c.c.w.rest.EmployeePassportResource - 'Delete' sorovi qabul qilindi
+2024-05-05 18:46:48 [http-nio-8085-exec-10] DEBUG c.c.w.rest.EmployeePassportResource - 'delete' method-i ishga tushdi
+2024-05-05 18:46:48 [http-nio-8085-exec-10] ERROR c.c.w.rest.EmployeePassportResource - 7-id-li passport malumotlari o'chirilmadi
+2024-05-05 18:49:48 [http-nio-8085-exec-6] DEBUG c.c.w.r.EmployeeManagementResource - '/employees/update' endpoint - dan so'rov qabul qilindi
+2024-05-05 18:49:48 [http-nio-8085-exec-6] DEBUG c.c.w.r.EmployeeManagementResource - 'Put' sorovi qabul qilindi
+2024-05-05 18:49:48 [http-nio-8085-exec-6] DEBUG c.c.w.r.EmployeeManagementResource - 'update' method-i ishga tushdi
+2024-05-05 18:49:48 [http-nio-8085-exec-6] INFO  c.c.w.r.EmployeeManagementResource - 8-id-li xodim malumotlari 'EmployeeManagement' jadvalida yangilandi
+2024-05-05 18:50:20 [http-nio-8085-exec-4] DEBUG c.c.w.r.EmployeeManagementResource - '/employees/{id}' endpoint - dan so'rov qabul qilindi
+2024-05-05 18:50:20 [http-nio-8085-exec-4] DEBUG c.c.w.r.EmployeeManagementResource - 'Get' sorovi qabul qilindi
+2024-05-05 18:50:20 [http-nio-8085-exec-4] DEBUG c.c.w.r.EmployeeManagementResource - 'getSingle' method-i ishga tushdi
+2024-05-05 18:50:20 [http-nio-8085-exec-4] INFO  c.c.w.r.EmployeeManagementResource - 8-id-li xodim malumotlari 'EmployeeManagement' jadvalidan qabul qilindi
+2024-05-05 18:50:27 [http-nio-8085-exec-7] DEBUG c.c.w.r.EmployeeManagementResource - '/employees' endpoint - dan so'rov qabul qilindi
+2024-05-05 18:50:27 [http-nio-8085-exec-7] DEBUG c.c.w.r.EmployeeManagementResource - 'Get' sorovi qabul qilindi
+2024-05-05 18:50:27 [http-nio-8085-exec-7] DEBUG c.c.w.r.EmployeeManagementResource - 'getAll' method-i ishga tushdi
+2024-05-05 18:50:27 [http-nio-8085-exec-7] INFO  c.c.w.r.EmployeeManagementResource - List<EmployeeManagement> turidagi malumot 'EmployeeManagement' jadvalidan qabul qilindi
+2024-05-05 18:52:06 [http-nio-8085-exec-3] DEBUG c.company.web.rest.UserJWTController - '/authenticate' endpoint - dan so'rov qabul qilindi
+2024-05-05 18:52:06 [http-nio-8085-exec-3] DEBUG c.company.web.rest.UserJWTController - 'Post' sorovi qabul qilindi
+2024-05-05 18:52:06 [http-nio-8085-exec-3] DEBUG c.company.web.rest.UserJWTController - 'authorize' method-i ishga tushdi
+2024-05-05 18:52:06 [http-nio-8085-exec-3] INFO  c.company.web.rest.UserJWTController - super_admin_director username uchun token yaratildi va 'header'-ga yuklandi
+2024-05-05 18:53:00 [http-nio-8085-exec-5] DEBUG c.c.w.r.EmployeeManagementResource - '/employees-delete/{id}' endpoint - dan so'rov qabul qilindi
+2024-05-05 18:53:00 [http-nio-8085-exec-5] DEBUG c.c.w.r.EmployeeManagementResource - 'Delete' sorovi qabul qilindi
+2024-05-05 18:53:00 [http-nio-8085-exec-5] DEBUG c.c.w.r.EmployeeManagementResource - 'delete' method-i ishga tushdi
+2024-05-05 18:53:00 [http-nio-8085-exec-5] INFO  c.c.w.r.EmployeeManagementResource - 8-id-li xodim malumotlari 'EmployeeManagement' jadvalidan ochirildi
+2024-05-05 18:54:03 [http-nio-8085-exec-4] DEBUG c.c.w.r.EmployeeManagementResource - '/employees' endpoint - dan so'rov qabul qilindi
+2024-05-05 18:54:03 [http-nio-8085-exec-4] DEBUG c.c.w.r.EmployeeManagementResource - 'Post' sorovi qabul qilindi
+2024-05-05 18:54:03 [http-nio-8085-exec-4] DEBUG c.c.w.r.EmployeeManagementResource - 'create' method-i ishga tushdi
+2024-05-05 18:54:03 [http-nio-8085-exec-4] INFO  c.c.w.r.EmployeeManagementResource - 9-id-li xodim 'EmployeeManagement' bazasiga muvaffaqiyatli qoshildi
+2024-05-05 19:00:01 [http-nio-8085-exec-9] DEBUG c.c.w.r.CustomerServiceEmployeeResource - '/customer-employees' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:00:01 [http-nio-8085-exec-9] DEBUG c.c.w.r.CustomerServiceEmployeeResource - 'Put' sorovi qabul qilindi
+2024-05-05 19:00:01 [http-nio-8085-exec-9] DEBUG c.c.w.r.CustomerServiceEmployeeResource - 'saveCustomer' method-i ishga tushdi
+2024-05-05 19:00:01 [http-nio-8085-exec-9] ERROR c.c.w.r.CustomerServiceEmployeeResource - [7, 6] id-dagi mijozlar 7 -idagi 'CustomerService' xodim akkauntiga qoshishda muvavaqqiyatsizlikga uchradi
+2024-05-05 19:00:47 [http-nio-8085-exec-3] DEBUG c.c.w.r.CustomerServiceEmployeeResource - '/customer-employees' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:00:47 [http-nio-8085-exec-3] DEBUG c.c.w.r.CustomerServiceEmployeeResource - 'Put' sorovi qabul qilindi
+2024-05-05 19:00:47 [http-nio-8085-exec-3] DEBUG c.c.w.r.CustomerServiceEmployeeResource - 'saveCustomer' method-i ishga tushdi
+2024-05-05 19:00:47 [http-nio-8085-exec-3] ERROR c.c.w.r.CustomerServiceEmployeeResource - [6, 7] id-dagi mijozlar 8 -idagi 'CustomerService' xodim akkauntiga qoshishda muvavaqqiyatsizlikga uchradi
+2024-05-05 19:01:04 [http-nio-8085-exec-2] DEBUG c.c.w.r.CustomerServiceEmployeeResource - '/customer-employees' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:01:04 [http-nio-8085-exec-2] DEBUG c.c.w.r.CustomerServiceEmployeeResource - 'Put' sorovi qabul qilindi
+2024-05-05 19:01:04 [http-nio-8085-exec-2] DEBUG c.c.w.r.CustomerServiceEmployeeResource - 'saveCustomer' method-i ishga tushdi
+2024-05-05 19:01:04 [http-nio-8085-exec-2] INFO  c.c.w.r.CustomerServiceEmployeeResource - [6, 7] id-dagi mijozlar 'EmployeeManagement' jadvalidagi 9 -idagi 'CustomerService' xodim akkauntiga qoshildi
+2024-05-05 19:01:31 [http-nio-8085-exec-5] DEBUG c.c.w.r.CustomerServiceEmployeeResource - '/customer-employees/{id}' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:01:31 [http-nio-8085-exec-5] DEBUG c.c.w.r.CustomerServiceEmployeeResource - 'Get' sorovi qabul qilindi
+2024-05-05 19:01:31 [http-nio-8085-exec-5] DEBUG c.c.w.r.CustomerServiceEmployeeResource - 'getEmployeeCustomers' method-i ishga tushdi
+2024-05-05 19:01:31 [http-nio-8085-exec-5] INFO  c.c.w.r.CustomerServiceEmployeeResource - 9-id-li 'CustomerService' xodimining mijozlari 'EmployeeManagement' jadvalidan qabul qilindi
+2024-05-05 19:02:42 [http-nio-8085-exec-7] DEBUG c.c.web.rest.CustomerServiceResource - '/customers' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:02:42 [http-nio-8085-exec-7] DEBUG c.c.web.rest.CustomerServiceResource - 'Post' sorovi qabul qilindi
+2024-05-05 19:02:42 [http-nio-8085-exec-7] DEBUG c.c.web.rest.CustomerServiceResource - 'create' method-i ishga tushdi
+2024-05-05 19:02:42 [http-nio-8085-exec-7] INFO  c.c.web.rest.CustomerServiceResource - 8-id-agi mijoz 'CustomerService' jadvalida registratsiyadan otdi
+2024-05-05 19:08:35 [http-nio-8085-exec-10] DEBUG c.c.web.rest.SalesDepartmentResource - '/sales' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:08:35 [http-nio-8085-exec-10] DEBUG c.c.web.rest.SalesDepartmentResource - 'Post' sorovi qabul qilindi
+2024-05-05 19:08:35 [http-nio-8085-exec-10] DEBUG c.c.web.rest.SalesDepartmentResource - 'create' method-i ishga tushdi
+2024-05-05 19:08:35 [http-nio-8085-exec-10] INFO  c.c.web.rest.SalesDepartmentResource - 5-id-li elon 'SalesDepartment' jadvaliga qoshildi
+2024-05-05 19:09:57 [http-nio-8085-exec-2] DEBUG c.c.w.r.SalesDepartmentEmployeeResource - '/sales-employee' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:09:57 [http-nio-8085-exec-2] DEBUG c.c.w.r.SalesDepartmentEmployeeResource - 'Put' sorovi qabul qilindi
+2024-05-05 19:09:57 [http-nio-8085-exec-2] DEBUG c.c.w.r.SalesDepartmentEmployeeResource - 'saveAccount' method-i ishga tushdi
+2024-05-05 19:09:57 [http-nio-8085-exec-2] INFO  c.c.w.r.SalesDepartmentEmployeeResource - [5, 3] id-dagi elonlar 'EmployeeManagement' jadvalidagi 6 -idagi 'SalesDepartment' xodim akkauntiga qoshildi
+2024-05-05 19:11:04 [http-nio-8085-exec-7] DEBUG c.c.w.r.SalesDepartmentEmployeeResource - '/sales-employee/{id}' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:11:04 [http-nio-8085-exec-7] DEBUG c.c.w.r.SalesDepartmentEmployeeResource - 'Get' sorovi qabul qilindi
+2024-05-05 19:11:04 [http-nio-8085-exec-7] DEBUG c.c.w.r.SalesDepartmentEmployeeResource - 'getEmployeeAdverts' method-i ishga tushdi
+2024-05-05 19:11:04 [http-nio-8085-exec-7] INFO  c.c.w.r.SalesDepartmentEmployeeResource - 6-id-li 'SalesDepartment' xodimining barcha elonlari 'EmployeeManagement' jadvalidan qabul qilindi
+2024-05-05 19:14:32 [http-nio-8085-exec-3] DEBUG c.c.web.rest.SalesDepartmentResource - '/sales/update' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:14:32 [http-nio-8085-exec-3] DEBUG c.c.web.rest.SalesDepartmentResource - 'Patch' sorovi qabul qilindi
+2024-05-05 19:14:32 [http-nio-8085-exec-3] DEBUG c.c.web.rest.SalesDepartmentResource - 'update' method-i ishga tushdi
+2024-05-05 19:14:32 [http-nio-8085-exec-3] INFO  c.c.web.rest.SalesDepartmentResource - 5-id-li elon malumotlari 'SalesDepartment' jadvalida yangilandi
+2024-05-05 19:14:57 [http-nio-8085-exec-1] DEBUG c.c.web.rest.SalesDepartmentResource - '/sales/{id}' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:14:57 [http-nio-8085-exec-1] DEBUG c.c.web.rest.SalesDepartmentResource - 'get' sorovi qabul qilindi
+2024-05-05 19:14:57 [http-nio-8085-exec-1] DEBUG c.c.web.rest.SalesDepartmentResource - 'getOne' method-i ishga tushdi
+2024-05-05 19:14:57 [http-nio-8085-exec-1] INFO  c.c.web.rest.SalesDepartmentResource - 5-id-li elon malumotlari 'SalesDepartment' jadvalidan qabul qilindi
+2024-05-05 19:15:02 [http-nio-8085-exec-2] DEBUG c.c.web.rest.SalesDepartmentResource - '/sales' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:15:02 [http-nio-8085-exec-2] DEBUG c.c.web.rest.SalesDepartmentResource - 'get' sorovi qabul qilindi
+2024-05-05 19:15:02 [http-nio-8085-exec-2] DEBUG c.c.web.rest.SalesDepartmentResource - 'getAll' method-i ishga tushdi
+2024-05-05 19:15:02 [http-nio-8085-exec-2] INFO  c.c.web.rest.SalesDepartmentResource - List<SalesDepartment tipidagi ma'lumot 'SalesDepartment' jadvalidan qabul qilindi
+2024-05-05 19:15:36 [http-nio-8085-exec-5] DEBUG c.c.web.rest.SalesDepartmentResource - '/sales/paging' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:15:36 [http-nio-8085-exec-5] DEBUG c.c.web.rest.SalesDepartmentResource - 'get' sorovi qabul qilindi
+2024-05-05 19:15:36 [http-nio-8085-exec-5] DEBUG c.c.web.rest.SalesDepartmentResource - 'getSalesByPaging' method-i ishga tushdi
+2024-05-05 19:15:36 [http-nio-8085-exec-5] INFO  c.c.web.rest.SalesDepartmentResource - Page<SalesDepartment> tipidagi malumot 'Pageable' sifatida 'SalesDepartment' jadvalidan qabul qilindi
+2024-05-05 19:21:26 [http-nio-8085-exec-8] ERROR com.company.security.TokenProvider - ExpiredJwtException
+2024-05-05 19:21:26 [http-nio-8085-exec-8] ERROR com.company.security.TokenProvider - ExpiredJwtException
+2024-05-05 19:22:30 [http-nio-8085-exec-3] ERROR com.company.security.TokenProvider - ExpiredJwtException
+2024-05-05 19:22:30 [http-nio-8085-exec-3] ERROR com.company.security.TokenProvider - ExpiredJwtException
+2024-05-05 19:24:16 [http-nio-8085-exec-5] DEBUG c.c.w.r.EmployeeStatisticsResource - '/employee-statistics/countAllDepartments' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:24:16 [http-nio-8085-exec-5] DEBUG c.c.w.r.EmployeeStatisticsResource - 'Get' sorovi qabul qilindi
+2024-05-05 19:24:16 [http-nio-8085-exec-5] DEBUG c.c.w.r.EmployeeStatisticsResource - 'getStatisticsEmployeesByAllDepartment' method-i ishga tushdi
+2024-05-05 19:24:17 [http-nio-8085-exec-5] INFO  c.c.w.r.EmployeeStatisticsResource - Barcha bo'limdagi xodimlar soni va umumiy xodimlarning nechi foizini tashkil qiluvchi natijalar 'EmployeeManagement' jadavalidan qabul qilindi
+2024-05-05 19:25:44 [http-nio-8085-exec-7] DEBUG c.c.w.r.EmployeeStatisticsResource - '/employee-statistics/age' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:25:44 [http-nio-8085-exec-7] DEBUG c.c.w.r.EmployeeStatisticsResource - 'Get' sorovi qabul qilindi
+2024-05-05 19:25:44 [http-nio-8085-exec-7] DEBUG c.c.w.r.EmployeeStatisticsResource - 'getStatisticsEmployeesByAge' method-i ishga tushdi
+2024-05-05 19:25:44 [http-nio-8085-exec-7] INFO  c.c.w.r.EmployeeStatisticsResource - 40-yosh bo'yicha xodimlar natijalari 'EmployeeManagement' jadavalidan qabul qilindi
+2024-05-05 19:26:16 [http-nio-8085-exec-10] DEBUG c.c.w.r.EmployeeStatisticsResource - '/employee-statistics/paging' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:26:16 [http-nio-8085-exec-10] DEBUG c.c.w.r.EmployeeStatisticsResource - 'Get' sorovi qabul qilindi
+2024-05-05 19:26:16 [http-nio-8085-exec-10] DEBUG c.c.w.r.EmployeeStatisticsResource - 'getEmployeesByPaging' method-i ishga tushdi
+2024-05-05 19:26:16 [http-nio-8085-exec-10] INFO  c.c.w.r.EmployeeStatisticsResource - Barcha xodimlar malumotlari 'Pagination' sifatida 'EmployeeManagement' jadavalidan qabul qilindi
+2024-05-05 19:26:46 [http-nio-8085-exec-3] DEBUG c.c.w.r.EmployeeStatisticsResource - '/employee-statistics/paging' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:26:46 [http-nio-8085-exec-3] DEBUG c.c.w.r.EmployeeStatisticsResource - 'Get' sorovi qabul qilindi
+2024-05-05 19:26:46 [http-nio-8085-exec-3] DEBUG c.c.w.r.EmployeeStatisticsResource - 'getEmployeesByPaging' method-i ishga tushdi
+2024-05-05 19:26:46 [http-nio-8085-exec-3] INFO  c.c.w.r.EmployeeStatisticsResource - Barcha xodimlarning umumiy maoshlarining summasi 'EmployeeManagement' jadavalidan qabul qilindi
+2024-05-05 19:29:30 [http-nio-8085-exec-7] DEBUG c.c.w.r.CustomerStatisticsResource - '/customer-statistics/customers' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:29:30 [http-nio-8085-exec-7] DEBUG c.c.w.r.CustomerStatisticsResource - 'Get' sorovi qabul qilindi
+2024-05-05 19:29:30 [http-nio-8085-exec-7] DEBUG c.c.w.r.CustomerStatisticsResource - 'getCustomersCountDay' method-i ishga tushdi
+2024-05-05 19:29:30 [http-nio-8085-exec-7] INFO  c.c.w.r.CustomerStatisticsResource - 2024/5/5 kundagi royhatdan o'tgan mijozlar soni 'CustomerService' jadvalidan qabul qilindi
+2024-05-05 19:30:29 [http-nio-8085-exec-8] DEBUG c.c.w.r.CustomerStatisticsResource - '/customer-statistics/employee-registers' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:30:29 [http-nio-8085-exec-8] DEBUG c.c.w.r.CustomerStatisticsResource - 'Get' sorovi  qabul qilindi
+2024-05-05 19:30:29 [http-nio-8085-exec-8] DEBUG c.c.w.r.CustomerStatisticsResource - 'getTopRegistersByEmployees' method-i ishga tushdi
+2024-05-05 19:30:29 [http-nio-8085-exec-8] INFO  c.c.w.r.CustomerStatisticsResource - Eng kop mijoz royhatdan o'tgazgan xodim(lar) List<EmployeeManagement> turida 'EmployeeManagement' jadvalidan qabul qilindi
+2024-05-05 19:31:06 [http-nio-8085-exec-9] DEBUG c.c.w.r.CustomerStatisticsResource - '/customer-statistics/employee-registers/top-three' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:31:06 [http-nio-8085-exec-9] DEBUG c.c.w.r.CustomerStatisticsResource - 'Get' sorovi  qabul qilindi
+2024-05-05 19:31:06 [http-nio-8085-exec-9] DEBUG c.c.w.r.CustomerStatisticsResource - 'getTopThreeRegistersByEmployees' method-i ishga tushdi
+2024-05-05 19:31:06 [http-nio-8085-exec-9] INFO  c.c.w.r.CustomerStatisticsResource - Eng kop mijoz royhatdan o'tgazgan top 3-ta xodimlar List<EmployeeManagement> turida 'EmployeeManagement' jadvalidan qabul qilindi
+2024-05-05 19:31:50 [http-nio-8085-exec-10] DEBUG c.c.w.r.CustomerStatisticsResource - '/customer-statistics/employee-registers/top-three' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:31:50 [http-nio-8085-exec-10] DEBUG c.c.w.r.CustomerStatisticsResource - 'Get' sorovi  qabul qilindi
+2024-05-05 19:31:50 [http-nio-8085-exec-10] DEBUG c.c.w.r.CustomerStatisticsResource - 'getTopThreeRegistersByEmployees' method-i ishga tushdi
+2024-05-05 19:31:50 [http-nio-8085-exec-10] INFO  c.c.w.r.CustomerStatisticsResource - Eng kop mijoz royhatdan o'tgazgan top 3-ta xodimlar List<EmployeeManagement> turida 'EmployeeManagement' jadvalidan qabul qilindi
+2024-05-05 19:32:52 [http-nio-8085-exec-1] DEBUG c.c.w.r.CustomerStatisticsResource - '/customer-statistics/employee-registers/customers-month' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:32:52 [http-nio-8085-exec-1] DEBUG c.c.w.r.CustomerStatisticsResource - 'Get' sorovi  qabul qilindi
+2024-05-05 19:32:52 [http-nio-8085-exec-1] DEBUG c.c.w.r.CustomerStatisticsResource - 'getCustomersInMonth' method-i ishga tushdi
+2024-05-05 19:32:52 [http-nio-8085-exec-1] INFO  c.c.w.r.CustomerStatisticsResource - 2024/5/5 sanadan boshlab so'nggi 1 oy davomida royhatdan otgan mijozlar soni 'CustomerService' jadvalidan qabul qilindi
+2024-05-05 19:34:22 [http-nio-8085-exec-8] DEBUG c.c.w.r.CustomerStatisticsResource - '/customer-statistics/employee-registers/customers-top-day' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:34:22 [http-nio-8085-exec-8] DEBUG c.c.w.r.CustomerStatisticsResource - 'Get' sorovi  qabul qilindi
+2024-05-05 19:34:22 [http-nio-8085-exec-8] DEBUG c.c.w.r.CustomerStatisticsResource - 'getTopDayRegistrationsInDay' method-i ishga tushdi
+2024-05-05 19:34:22 [http-nio-8085-exec-8] INFO  c.c.w.r.CustomerStatisticsResource - 2024/5/5 sanadan boshlab so'nggi 1 oy davomida eng kop mijoz royhatdan otgan kun 'CustomerService' jadvalidan qabul qilindi
+2024-05-05 19:36:30 [http-nio-8085-exec-3] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - '/sales-statistics/expense-type' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:36:30 [http-nio-8085-exec-3] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - 'Get' sorovi qabul qilindi
+2024-05-05 19:36:30 [http-nio-8085-exec-3] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - 'getTypeOfAdByExpense' method-i ishga tushdi
+2024-05-05 19:36:30 [http-nio-8085-exec-3] INFO  c.c.w.r.SalesDepartmentStatisticsResource - Eng kop reklama xarajatlari sarflangan reklama turi 'SalesDepartment' jadvalidan qabul qilindi
+2024-05-05 19:36:52 [http-nio-8085-exec-2] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - '/sales-statistics/sales-registers' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:36:52 [http-nio-8085-exec-2] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - 'Get' sorovi  qabul qilindi
+2024-05-05 19:36:52 [http-nio-8085-exec-2] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - 'getTopSaleRegister' method-i ishga tushdi
+2024-05-05 19:36:52 [http-nio-8085-exec-2] INFO  c.c.w.r.SalesDepartmentStatisticsResource - Eng kop reklama xarajatlarini kiritgan xodim(lar) 'EmployeeManagement' jadvalidan qabul qilindi
+2024-05-05 19:39:00 [http-nio-8085-exec-6] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - '/sales-statistics/sales-month-start' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:39:00 [http-nio-8085-exec-6] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - 'Get' sorovi   qabul qilindi
+2024-05-05 19:39:00 [http-nio-8085-exec-6] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - 'getNewSalesInMonth' method-i ishga tushdi
+2024-05-05 19:39:00 [http-nio-8085-exec-6] INFO  c.c.w.r.SalesDepartmentStatisticsResource - 2024/5/5 sanadan boshlab so'nggi 1 oy davomida yolga qoyilgan umumiy reklamalar/elonlar soni 'SalesDepartment' jadvalidan qabul qilindi
+2024-05-05 19:39:31 [http-nio-8085-exec-8] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - '/sales-statistics/sales-month-end' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:39:31 [http-nio-8085-exec-8] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - 'Get'  sorovi   qabul qilindi
+2024-05-05 19:39:31 [http-nio-8085-exec-8] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - 'getFinishedSalesInMonth' method-i ishga tushdi
+2024-05-05 19:39:31 [http-nio-8085-exec-8] INFO  c.c.w.r.SalesDepartmentStatisticsResource - 2024/5/5 sanadan boshlab so'nggi 1 oy davomida toxtagan umumiy reklamalar/elonlar soni 'SalesDepartment' jadvalidan qabul qilindi
+2024-05-05 19:40:18 [http-nio-8085-exec-9] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - '/sales-statistics/each-type-expense' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:40:18 [http-nio-8085-exec-9] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - 'Get'  sorovi  qabul qilindi
+2024-05-05 19:40:18 [http-nio-8085-exec-9] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - 'getEachTypeExpense' method-i ishga tushdi
+2024-05-05 19:40:18 [http-nio-8085-exec-9] INFO  c.c.w.r.SalesDepartmentStatisticsResource - Har bir reklama turiga mos tushadigan umumiy xarajatlar 'SalesDepartment' jadvalidan qabul qilindi
+2024-05-05 19:46:20 [main] INFO  com.company.CompanyApplication - Starting CompanyApplication using Java 21.0.2 with PID 20552 (C:\Users\DELL\Documents\Spring projects\company\company\build\classes\java\main started by DELL in C:\Users\DELL\Documents\Spring projects\company)
+2024-05-05 19:46:20 [main] DEBUG com.company.CompanyApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
+2024-05-05 19:46:20 [main] INFO  com.company.CompanyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-05 19:46:24 [main] INFO  com.company.CompanyApplication - Started CompanyApplication in 4.004 seconds (process running for 4.699)
+2024-05-05 19:47:12 [http-nio-8085-exec-3] DEBUG c.c.w.r.CustomerStatisticsResource - '/customer-statistics/customers' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:47:12 [http-nio-8085-exec-3] DEBUG c.c.w.r.CustomerStatisticsResource - 'Get' sorovi qabul qilindi
+2024-05-05 19:47:12 [http-nio-8085-exec-3] DEBUG c.c.w.r.CustomerStatisticsResource - 'getCustomersCountDay' method-i ishga tushdi
+2024-05-05 19:47:12 [http-nio-8085-exec-3] INFO  c.c.w.r.CustomerStatisticsResource - 2024/5/5 kundagi royhatdan o'tgan mijozlar soni 'CustomerService' jadvalidan qabul qilindi
+2024-05-05 19:47:44 [http-nio-8085-exec-2] DEBUG c.c.w.r.CustomerStatisticsResource - '/customer-statistics/employee-registers/customers-month' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:47:44 [http-nio-8085-exec-2] DEBUG c.c.w.r.CustomerStatisticsResource - 'Get' sorovi  qabul qilindi
+2024-05-05 19:47:44 [http-nio-8085-exec-2] DEBUG c.c.w.r.CustomerStatisticsResource - 'getCustomersInMonth' method-i ishga tushdi
+2024-05-05 19:47:44 [http-nio-8085-exec-2] INFO  c.c.w.r.CustomerStatisticsResource - 2024/5/5 sanadan boshlab so'nggi 1 oy davomida royhatdan otgan mijozlar soni 'CustomerService' jadvalidan qabul qilindi
+2024-05-05 19:48:14 [http-nio-8085-exec-4] DEBUG c.c.w.r.CustomerStatisticsResource - '/customer-statistics/employee-registers/customers-top-day' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:48:14 [http-nio-8085-exec-4] DEBUG c.c.w.r.CustomerStatisticsResource - 'Get' sorovi  qabul qilindi
+2024-05-05 19:48:14 [http-nio-8085-exec-4] DEBUG c.c.w.r.CustomerStatisticsResource - 'getTopDayRegistrationsInDay' method-i ishga tushdi
+2024-05-05 19:48:14 [http-nio-8085-exec-4] INFO  c.c.w.r.CustomerStatisticsResource - 2024/5/5 sanadan boshlab so'nggi 1 oy davomida eng kop mijoz royhatdan otgan kun 'CustomerService' jadvalidan qabul qilindi
+2024-05-05 19:49:28 [http-nio-8085-exec-8] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - '/sales-statistics/sales-month-start' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:49:28 [http-nio-8085-exec-8] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - 'Get' sorovi   qabul qilindi
+2024-05-05 19:49:28 [http-nio-8085-exec-8] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - 'getNewSalesInMonth' method-i ishga tushdi
+2024-05-05 19:49:28 [http-nio-8085-exec-8] INFO  c.c.w.r.SalesDepartmentStatisticsResource - 2024/5/5 sanadan boshlab so'nggi 1 oy davomida yolga qoyilgan umumiy reklamalar/elonlar soni 'SalesDepartment' jadvalidan qabul qilindi
+2024-05-05 19:49:50 [http-nio-8085-exec-7] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - '/sales-statistics/sales-month-end' endpoint - dan so'rov qabul qilindi
+2024-05-05 19:49:50 [http-nio-8085-exec-7] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - 'Get'  sorovi   qabul qilindi
+2024-05-05 19:49:50 [http-nio-8085-exec-7] DEBUG c.c.w.r.SalesDepartmentStatisticsResource - 'getFinishedSalesInMonth' method-i ishga tushdi
+2024-05-05 19:49:50 [http-nio-8085-exec-7] INFO  c.c.w.r.SalesDepartmentStatisticsResource - 2024/5/5 sanadan boshlab so'nggi 1 oy davomida toxtagan umumiy reklamalar/elonlar soni 'SalesDepartment' jadvalidan qabul qilindi
+2024-05-05 20:02:41 [main] INFO  com.company.CompanyApplication - Starting CompanyApplication using Java 21.0.2 with PID 4508 (C:\Users\DELL\Documents\Spring projects\company\company\build\classes\java\main started by DELL in C:\Users\DELL\Documents\Spring projects\company)
+2024-05-05 20:02:41 [main] DEBUG com.company.CompanyApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
+2024-05-05 20:02:41 [main] INFO  com.company.CompanyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-05 20:02:45 [main] INFO  com.company.CompanyApplication - Started CompanyApplication in 3.7 seconds (process running for 4.335)
+2024-05-05 20:08:16 [main] INFO  com.company.CompanyApplication - Starting CompanyApplication using Java 21.0.2 with PID 24364 (C:\Users\DELL\Documents\Spring projects\company\company\build\classes\java\main started by DELL in C:\Users\DELL\Documents\Spring projects\company)
+2024-05-05 20:08:16 [main] DEBUG com.company.CompanyApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
+2024-05-05 20:08:16 [main] INFO  com.company.CompanyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-05 20:08:20 [main] INFO  com.company.CompanyApplication - Started CompanyApplication in 3.713 seconds (process running for 4.437)
+2024-05-05 20:14:20 [main] INFO  com.company.CompanyApplication - Starting CompanyApplication using Java 21.0.2 with PID 8416 (C:\Users\DELL\Documents\Spring projects\company\company\build\classes\java\main started by DELL in C:\Users\DELL\Documents\Spring projects\company)
+2024-05-05 20:14:20 [main] DEBUG com.company.CompanyApplication - Running with Spring Boot v3.0.6, Spring v6.0.8
+2024-05-05 20:14:20 [main] INFO  com.company.CompanyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-05 20:14:24 [main] INFO  com.company.CompanyApplication - Started CompanyApplication in 3.684 seconds (process running for 4.299)
