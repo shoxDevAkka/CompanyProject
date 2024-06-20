@@ -78,9 +78,9 @@ public class EmployeeManagementResource {
     }
 
     @GetMapping("/employees/search")
-    public ResponseEntity getAllByParam(@RequestBody String firstName,
-                                        @RequestBody String lastName,
-                                        @RequestBody String familyName){
+    public ResponseEntity getAllByParam(@RequestParam String firstName,
+                                        @RequestParam String lastName,
+                                        @RequestParam String familyName){
 
         logger.debug("'/employees/search' endpoint - dan so'rov qabul qilindi");
         logger.debug("'Get' sorovi qabul qilindi");
